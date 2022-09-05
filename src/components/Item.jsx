@@ -1,10 +1,10 @@
 import React from 'react';
 
 const style = {
-  ItemContainer:"flex flex-col justify-center gap-1 shrink-0",
+  ItemContainer:"flex flex-col justify-center gap-1 shrink-0 mx-2",
   ImageContainer:"w-[128px] md:w-[256px] lg:w-[512px] h-auto",
   Img:"object-contain rounded-[10px]",
-  TextParagraph:"text-sm md:text-base lg:text-xl text-center mb-2"
+  TextParagraph:"text-sm text-white md:text-base lg:text-xl text-center mb-5"
 }
 
 const Item = ({imgSrc,text}) => {

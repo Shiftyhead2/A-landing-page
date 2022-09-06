@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <header className= {style.Header}>
       <div className= {style.Container}>
-        <h1 className= {style.TitleText}>Slike Kolaž</h1>
+        <h1 className= {style.TitleText}>Lorem Ipsum</h1>
       </div>
     </header>
   );
